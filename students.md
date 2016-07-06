@@ -1,4 +1,7 @@
 ~~~java
+
+private class Students
+{
 private int Totalnumber;
 private int Studentsgrade;
 
@@ -6,9 +9,14 @@ public int getStudentsgrade{
  return Studentsgrade;
 
 }
-public void setTotalnumber{
-Totalnumer = 40;
+public int getTotalnumber{
+return Totalnumber;
+}
+public void setTotalnumber(int newTotalnumber){
+Totalnumer = newTotalnumber;
 
 }
-
-~~~java
+public void setStudentsgrade(int newStudentsgrade){
+studentsgrade= newStudentsgrade;
+}
+}
